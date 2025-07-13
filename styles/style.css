@@ -3,12 +3,13 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding-top: 94px;
-  padding-bottom: 100px;
+  padding-top: 92px;
+  padding-bottom: 92px;
 }
 .header-nav {
-  width: 391px;
   margin-left: 50px;
+  margin-right: 41.3px;
+  padding-bottom: 5px;
 }
 
 .header-nav ul {
@@ -17,6 +18,11 @@
   gap: 23px;
   justify-content: space-between;
   list-style-type: circle;
+}
+
+.nav-lots,
+.nav-about {
+  padding-left: 2px;
 }
 
 .nav-main {
@@ -29,23 +35,24 @@
 
 .nav-lots a,
 .nav-about a {
+  padding-right: 1.8px;
+  padding-top: 1px;
   text-decoration: none;
   border-bottom: 1px solid black;
-  margin-left: 0.3em;
 }
 
 .logo-black {
   display: block;
-  width: 139px;
-  height: 101px;
+  width: 137px;
 }
 
 .address {
-  margin-left: 190px;
+  margin-left: 191.5px;
+  margin-bottom: 4.5px;
   max-width: 240px;
   font-style: normal;
   font-size: 18px;
-  line-height: 23.3px;
+  line-height: 135%;
   display: flex;
   flex-direction: column;
   justify-self: start;
@@ -55,13 +62,13 @@
 .address a {
   width: fit-content;
   text-decoration: underline;
-  text-underline-offset: 3px;
+  text-underline-offset: 4px;
 }
 
 .cover {
   min-height: 757px;
   position: relative;
-  background-image: url("/ono-tebe-nado-fd/images/cover.jpg");
+  background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: -138.084px;
   padding: 165px 50px 50px 50px;
@@ -125,7 +132,6 @@
   font-weight: 500;
   text-transform: uppercase;
   background: none;
-  border: none;
   border: 1px solid #fff;
   align-self: flex-end;
 }
@@ -169,15 +175,17 @@
 }
 
 .card-films {
-  background-image: url(/ono-tebe-nado-fd/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
+  background-size: 161.078% 100%;
 }
 
 .card-books {
-  background-image: url(/ono-tebe-nado-fd/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
+  background-size: 161.078% 100%;
 }
 
 .card-pictures {
-  background-image: url(/ono-tebe-nado-fd/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .card-header {
@@ -210,6 +218,7 @@
   margin-left: 40px;
   font-size: 20px;
   font-weight: 400;
+  text-underline-offset: 4px;
 }
 
 .about {
@@ -271,6 +280,7 @@
 }
 
 .footer address {
+  margin-top: 2.7px;
   margin-left: 0px;
   width: max-content;
 }
@@ -281,6 +291,7 @@
 }
 
 .nav-footer {
+  margin-top: 2.7px;
   list-style-type: none;
   justify-self: center;
   text-align: center;
@@ -294,6 +305,7 @@
 }
 
 .logo-footer-list {
+  margin-top: 2px;
   list-style-type: none;
   display: flex;
   gap: 48px;
