@@ -152,9 +152,6 @@
 .card {
   width: 334px;
   min-height: 596px;
-  padding: 48px 40px;
-  background-size: cover;
-  background-position: center;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -165,14 +162,17 @@
   z-index: 1;
   text-decoration: none;
   flex: 1;
-  max-height: 500px;
+  max-height: 100%;
 }
 
 .card-block {
+  padding: 48px 40px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  min-height: 500px;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .card-films {
@@ -188,6 +188,7 @@
 }
 
 .card-header {
+  z-index: 1;
   color: #fff;
   font-size: 22px;
   font-weight: 700;
@@ -267,10 +268,6 @@
   font-weight: 400;
   line-height: 120%;
   padding-right: 3px;
-}
-
-.unwrapped-element {
-  white-space: nowrap;
 }
 
 .footer {
